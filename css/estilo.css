@@ -1,0 +1,134 @@
+/*cabeçalho*/
+nav a img {
+    height:70px;
+    width: 70px;
+}
+
+
+
+
+/*Conteudo principal*/
+main{
+    min-height: 50vh;
+}
+
+/*banner*/
+#section-banners img {
+    height: 500px;
+}
+
+#section-vendidos{
+ text-align: center;
+}
+
+#section-vendidos h2{
+    font-weight: bold;
+    padding: 20px;
+}
+
+#section-vendidos .card-img-top{
+    height: 350px;
+    width:  100;
+    margin: 20px;
+}
+
+#section-vendidos .card-body{
+    text-align: center;
+}
+
+#section-vendidos .card{
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+#section-vendidos .Preco{
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*Produtos vendidos*/
+/*Rodapé*/
+footer {
+    text-align: center;
+    height: 10px;
+    
+   
+}
+
+footer p {
+    font-weight: bold;
+    padding: 10px;
+    
+    
+    
+}
+
+/*Botão Voltar topo*/
+#voltar-topo{
+    position: fixed;
+    bottom: 1px;
+    right: 50px;
+}
+
+#section-login{
+    text-align: center;
+    
+}
+#bt-login {
+    background-color: green;
+    border-color: green;
+}
+
+
+
+
+
+/* página de login  */
+#section-cadastro{
+    padding: 5px;
+    text-align: center;
+    background-color: #fff;
+}
+
+
+/* Formulário de cadastro*/
+#form-cadastrar{
+    padding: 30;
+    display: none;
+}
+
+
+/* pagina consoles*/
+
+
+#produtos{
+    display:flex;
+    flex-wrap: wrap;
+    
+   
+}
+
+#produtos .card {
+    height: 700px;
+    width: 555px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    
+} 
+
+#produtos .card-body {
+    text-align: center;
+}
+
+#produtos .card-img-top {
+    height: 450px;
+    width: 450px;
+}
+
+
+
+
+
